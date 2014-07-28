@@ -33,6 +33,10 @@ Databases
     * In situations where pooling information together wouldn't have a negative affect.
     * In some cases most of the queries are searching for big chunks of information, so separating them adds complexity.
 4. Explain the differences between INNER JOIN, FULL OUTER JOIN, and LEFT OUTER JOIN.
+    * INNER JOIN compares values in two different tables and selectively shows columns from either or both tables.
+        * Rows without matches aren't shown at all.
+    * LEFT OUTER JOIN is similar to INNER JOIN except for rows from left are shown regardless of unmatched right table entries.
+    * FULL OUTER JOIN returns all rows from all tables regardless of unmatching rows.
 
 HTTP
 ====
